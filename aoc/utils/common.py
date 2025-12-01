@@ -6,18 +6,25 @@ def _caller_dir():
     file_path = Path(frame.filename).resolve()
     return file_path.parent
 
-def read_input(filename="input.txt"):
+def _resolve_filename(test, filename):
+    return "test.txt" if test else filename
+
+def read_input(test=False, filename="input.txt"):
     caller = _caller_dir()
+    filename = _resolve_filename(test, filename)
     return (caller / filename).read_text().strip()
 
-def read_lines(filename="input.txt"):
+def read_lines(test=False, filename="input.txt"):
     caller = _caller_dir()
+    filename = _resolve_filename(test, filename)
     return (caller / filename).read_text().splitlines()
 
-def read_ints(filename="input.txt"):
+def read_ints(test=False, filename="input.txt"):
     caller = _caller_dir()
+    filename = _resolve_filename(test, filename)
     return list(map(int, (caller / filename).read_text().split()))
 
-def read_grid(filename="input.txt"):
+def read_grid(test=False, filename="input.txt"):
     caller = _caller_dir()
+    filename = _resolve_filename(test, filename)
     return [list(line.strip()) for line in (caller / filename).read_text().splitlines()]
