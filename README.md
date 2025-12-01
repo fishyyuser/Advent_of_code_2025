@@ -17,15 +17,19 @@ This repo contains my Python solutions for this year’s Advent of Code challeng
 ## 📁 Repository Structure
 
 ```bash
-aoc2025/
-├── day01/
-│ ├── part1.py
-│ ├── part2.py
-│ └── input.txt
-├── day02/
-├── ...
-└── day12/
-
+Advent_of_code_2025/
+├── aoc/
+│   ├── day01/
+│   │   ├── part1.py
+│   │   ├── part2.py
+│   │   └── input.txt
+│   ├── day02/
+│   ├── ...
+│   └── day12/
+│
+└── utils/
+    ├── common.py
+    └── __init__.py
 ```
 
 Each day contains:
@@ -33,19 +37,26 @@ Each day contains:
 - `part1.py` — solution for Part 1
 - `part2.py` — solution for Part 2
 - `input.txt` — puzzle input
+- (the input helpers live inside `aoc/utils/common.py`)
 
 ---
 
 ## 🚀 Running Solutions
 
-Navigate into any `dayXX` directory and run:
+From the **project root**, run any day using module execution:
 
 ```bash
-python part1.py
-python part2.py
+python -m aoc.day01.part1
+python -m aoc.day01.part2
 ```
 
-All solutions use **Python 3.13.9**
+This ensures:
+
+- correct imports (`from aoc.utils.common import read_lines`)
+- correct `input.txt` path resolution
+- consistent behavior on all systems
+
+All solutions use **Python 3.11.14**.
 
 ---
 
