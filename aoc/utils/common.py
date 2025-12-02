@@ -28,3 +28,9 @@ def read_grid(test=False, filename="input.txt"):
     caller = _caller_dir()
     filename = _resolve_filename(test, filename)
     return [list(line.strip()) for line in (caller / filename).read_text().splitlines()]
+
+def read_range(test=False, filename="input.txt"):
+    caller = _caller_dir()
+    filename = _resolve_filename(test, filename)
+    return [tuple(map(int, r.split("-"))) for r in (caller / filename).read_text().split(",")]
+
