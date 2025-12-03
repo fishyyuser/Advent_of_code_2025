@@ -19,17 +19,16 @@ This repo contains my Python solutions for this year’s Advent of Code challeng
 ```bash
 Advent_of_code_2025/
 ├── aoc/
-│   ├── day01/
-│   │   ├── part1.py
-│   │   ├── part2.py
-│   │   └── input.txt
-│   ├── day02/
-│   ├── ...
-│   └── day12/
-│
-└── utils/
-    ├── common.py
-    └── __init__.py
+    ├── day01/
+    │   ├── part1.py
+    │   ├── part2.py
+    │   └── input.txt
+    ├── day02/
+    ├── ...
+    ├── day12/
+    └── utils/
+        ├── common.py
+        └── __init__.py
 ```
 
 Each day contains:
@@ -46,15 +45,9 @@ Each day contains:
 From the **project root**, run any day using module execution:
 
 ```bash
-python -m aoc.day01.part1
-python -m aoc.day01.part2
+python -m aoc.dayXX.part1
+python -m aoc.dayXX.part2
 ```
-
-This ensures:
-
-- correct imports (`from aoc.utils.common import read_lines`)
-- correct `input.txt` path resolution
-- consistent behavior on all systems
 
 All solutions use **Python 3.11.14**.
 
