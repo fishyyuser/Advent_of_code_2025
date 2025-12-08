@@ -22,7 +22,7 @@ def read_lines(test=False, filename="input.txt"):
 def read_ints(test=False, filename="input.txt"):
     caller = _caller_dir()
     filename = _resolve_filename(test, filename)
-    return list(map(int, (caller / filename).read_text().split()))
+    return [ tuple(map(int, line.split(","))) for line in (caller / filename).read_text().splitlines()]
 
 def read_grid(test=False, filename="input.txt"):
     caller = _caller_dir()
