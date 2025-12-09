@@ -20,7 +20,6 @@ class Playground:
 
         self.distances.sort()
 
-    # ✅ Find which component a node belongs to
     def find_component_index(self, node):
         for idx, comp in enumerate(self.connected_components):
             if node in comp:
