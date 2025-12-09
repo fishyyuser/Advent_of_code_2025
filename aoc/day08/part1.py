@@ -7,7 +7,7 @@ class Playground:
         self.ans = 1
         self.junction_position = read_ints(test)
         self.distances = []
-        self.connected_components = []   # ✅ list of sets
+        self.connected_components = []
         self.rows = len(self.junction_position)
 
     def populate_distances(self):
