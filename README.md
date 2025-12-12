@@ -79,7 +79,7 @@ performance-driven design to remain tractable.
 ## 🏅 Progress Tracker
 
 | Day | Part 1 | Part 2 |
-|  |  |  |
+| --- | ------ | ------ |
 | 01  | ✔️     | ✔️     |
 | 02  | ✔️     | ✔️     |
 | 03  | ✔️     | ✔️     |
