@@ -1,16 +1,19 @@
 # 🎄 Advent of Code 2025 — Python Solutions
 
 Welcome to my **Advent of Code 2025** repository!  
-This repo contains my Python solutions for this year’s Advent of Code challenges, focusing on clarity, efficiency, and clean problem-solving.
+This repository contains Python solutions for all 12 days of Advent of Code 2025.
+
+Each solution prioritizes correctness and clear structure, with performance
+considerations applied where required by the problem constraints.
 
 ---
 
 ## 🧩 Goals
 
-- Write clean and Pythonic solutions
-- Strengthen algorithmic problem-solving skills
-- Maintain a consistent structure across all days
-- Keep solutions lightweight and readable
+- Provide correct and complete solutions for each Advent of Code problem
+- Keep implementations readable and logically structured
+- Use appropriate algorithms and data structures per problem requirements
+- Maintain consistency across all solution files
 
 ---
 
@@ -55,11 +58,21 @@ All solutions use **Python 3.11.14**.
 
 ## 🛠️ Python Techniques
 
-- Itertools & collections
-- Efficient parsing and data handling
-- Recursion and memoization when needed
-- Greedy, graph search, dynamic programming (if applicable)
-- Pythonic comprehensions and generators
+Depending on the day, solutions may involve:
+
+- Graph traversal (DFS / BFS)
+- Path counting with memoization
+- Backtracking with pruning and ordering heuristics
+- Flood fill and region expansion
+- Bitmask / bitboard representations
+- Constraint satisfaction and feasibility checks
+- Greedy and problem-specific strategies
+- Connected component construction and merging
+- Grid and coordinate-based geometry
+- Shape normalization via rotation and reflection
+
+Later problems required careful state-space reduction and
+performance-driven design to remain tractable.
 
 ---
 
@@ -78,7 +91,7 @@ All solutions use **Python 3.11.14**.
 | 09  | ✔️     | ✔️     |
 | 10  | ✔️     | ✔️     |
 | 11  | ✔️     | ✔️     |
-| 12  | ⏳     | ⏳     |
+| 12  | ✔️     | ✔️     |
 
 ---
 
