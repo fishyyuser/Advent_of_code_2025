@@ -6,7 +6,7 @@ This repository contains Python solutions for all 12 days of Advent of Code 2025
 Each solution prioritizes correctness and clear structure, with performance
 considerations applied where required by the problem constraints.
 
----
+
 
 ## 🧩 Goals
 
@@ -15,7 +15,7 @@ considerations applied where required by the problem constraints.
 - Use appropriate algorithms and data structures per problem requirements
 - Maintain consistency across all solution files
 
----
+
 
 ## 📁 Repository Structure
 
@@ -41,7 +41,7 @@ Each day contains:
 - `input.txt` — puzzle input
 - (the input helpers live inside `aoc/utils/common.py`)
 
----
+
 
 ## 🚀 Running Solutions
 
@@ -54,7 +54,7 @@ python -m aoc.dayXX.part2
 
 All solutions use **Python 3.11.14**.
 
----
+
 
 ## 🛠️ Python Techniques
 
@@ -74,12 +74,12 @@ Depending on the day, solutions may involve:
 Later problems required careful state-space reduction and
 performance-driven design to remain tractable.
 
----
+
 
 ## 🏅 Progress Tracker
 
 | Day | Part 1 | Part 2 |
-| --- | ------ | ------ |
+|  |  |  |
 | 01  | ✔️     | ✔️     |
 | 02  | ✔️     | ✔️     |
 | 03  | ✔️     | ✔️     |
@@ -93,7 +93,7 @@ performance-driven design to remain tractable.
 | 11  | ✔️     | ✔️     |
 | 12  | ✔️     | ✔️     |
 
----
+
 
 ## 📜 License
 
