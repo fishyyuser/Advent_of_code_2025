@@ -74,27 +74,6 @@ Depending on the day, solutions may involve:
 Later problems required careful state-space reduction and
 performance-driven design to remain tractable.
 
-
-
-## 🏅 Progress Tracker
-
-| Day | Part 1 | Part 2 |
-| --- | ------ | ------ |
-| 01  | ✔️     | ✔️     |
-| 02  | ✔️     | ✔️     |
-| 03  | ✔️     | ✔️     |
-| 04  | ✔️     | ✔️     |
-| 05  | ✔️     | ✔️     |
-| 06  | ✔️     | ✔️     |
-| 07  | ✔️     | ✔️     |
-| 08  | ✔️     | ✔️     |
-| 09  | ✔️     | ✔️     |
-| 10  | ✔️     | ✔️     |
-| 11  | ✔️     | ✔️     |
-| 12  | ✔️     | ✔️     |
-
-
-
 ## 📜 License
 
 This project is licensed under the **MIT License**.
